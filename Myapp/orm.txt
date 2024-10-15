@@ -1,0 +1,52 @@
+from Myapp.models import Employee
+
+modelname.object.create(field="value")
+
+Employee.objects.create(name='apu',
+                       age=20
+                       salary=2000
+                       designation='cs'
+                       email='hari@123'
+                       phone=12345)
+
+read
+====
+
+                       
+sql query : select *from table name
+
+omr query
+
+==========
+
+qs=modelname.object.all()
+qs=Employee.object.all()
+
+
+
+get specific oject with=id1
+=============================
+
+qs=modelname.object.gt(id=1)
+qs=Employee.object.gt(id=1)
+
+
+filter object from query
+
+modelname.object(name='hari')
+
+
+
+delete object from table
+=======================
+modelname.object..get(id=1).delete()
+Employee.object.get(id=1).delete
+
+
+update an object
+===============
+
+qs=modelname.object.get(1d=1)
+qs=Employee.object.get(id=1)
+qs.name='arun'
+qs.save()
